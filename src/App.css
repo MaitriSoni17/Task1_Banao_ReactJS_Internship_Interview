@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.header__center {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.2rem;
+  align-items: center;
+}
+
+.header__center::before,
+.header__center::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #CED4DA;
+}
+
+.bg-color {
+  background-color: #8064A2;
+}
+
+.text-color {
+  color: grey;
+}
+
+.text-passion{
+  color: #8064A2;
+}
+
+.text-color:hover {
+  color: #8064A2;
+}
+
+.text-joinin {
+  color: grey;
+}
+
+.text-joinin:hover {
+  color: #8064A2;
+}
+
+.nav-underline .nav-item .nav-link.active {
+  color: #8064A2;
+}
+
+.border-secondary {
+  border-color: #8064A2 !important;
+}
+
+.text-hobby {
+  color: #0096C8;
+}
+
+.btn-outline-primary, .btn-primary:hover {
+  border-color: #8064A2;
+  color: #8064A2;
+  background-color: white;
+}
+
+.btn-outline-primary:hover, .btn-primary {
+  border-color: #8064A2;
+  background-color: #8064A2;
+  color: white;
+}
+
+.bg-heroScreen {
+  background-color: #F7F5F9;
+}
+
+
+.bi-geo-alt-fill{
+  color: #77933C;
+}
+
+.bi-basket3-fill{
+  color: #C0504D;
+}
+
+.bi-calendar-check-fill{
+  color: #0096C8;
+}
+
+.bg-addTestimonials{
+  background-color: #F7FDFF;
+}
+
+.bi-plus-circle-fill{
+  color: #0096C8;
+}
+
+.bg-primary{
+  background-color: #CCC1DA !important;
+}
+
+.text-info{
+  color: #0096C8 !important;
+}
+
+
+.border-primary{
+  border-color: #8064A2 !important;
+}
+
+.bi-people-fill{
+  color: #8064A2;
+}
+
+.feature1:hover {
+  background-color: #8064A2;
+  border-color: #8064A2;
+  color: white !important;
+}
+
+.feature1:hover  .bi-people-fill{
+  background-color: #8064A2;
+  border-color: #8064A2;
+  color: white !important;
+}
+
+
+.feature2:hover{
+  background-color: #77933C;
+  border-color: #77933C;
+  color: white !important;
+}
+
+.feature2:hover .bi-geo-alt-fill{
+  background-color: #77933C;
+  border-color: #77933C;
+  color: white !important;
+}
+
+.feature3:hover{
+  background-color: #C0504D;
+  border-color: #C0504D;
+  color: white !important;
+}
+
+.feature3:hover .bi-basket3-fill{
+  background-color: #C0504D;
+  border-color: #C0504D;
+  color: white !important;
+}
+
+.feature4:hover{
+  background-color: #0096C8;
+  border-color: #0096C8;
+  color: white !important;
+}
+
+.feature4:hover .bi-calendar-check-fill{
+  background-color: #0096C8;
+  border-color: #0096C8;
+  color: white !important;
+}
